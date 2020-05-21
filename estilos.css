@@ -1,0 +1,37 @@
+
+body {
+    background-image: src "C:\Users\Lenovo\Documents\Projeto 2 CSS\telafundo.jpg"; 
+        font-family: 'Times New Roman';
+        height: 100vh; 
+    }
+.menu {
+    background-color: cadetblue;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+   text-decoration: none; 
+}
+
+.menu li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.site-title {
+    text-align: center;
+    color: brown;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
